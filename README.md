@@ -1,3 +1,12 @@
+## TODO
+
+- [ ] Completing impelement parsing APP0
+- [ ] Create impelement parsing APP1
+- [ ] Create enums for all possible tags name
+- [ ] Refactor parse EXIF APP1 (TIFF v6.0)
+
+## JPEG EXIF Metadata
+
 JPEG files start with a Start of Image (SOI) marker (0xFFD8)
 and contain various segments, each beginning with a marker (0xFF followed by a segment code).
 Metadata is typically stored in segments like APP0, APP1, APP2,
